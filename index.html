@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxanium:200,300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="stopwatch">
+      <div class="stopwatch__block">
+        <div class="time hours">00</div>
+        <div class="titel">hours</div>
+      </div>
+      <div class="stopwatch__block">
+        <div class="time minutes">00</div>
+        <div class="titel">minutes</div>
+      </div>
+      <div class="stopwatch__block">
+        <div class="time seconds">00</div>
+        <div class="titel">seconds</div>
+      </div>
+      <div class="stopwatch__block">
+        <div class="time milliseconds">00</div>
+        <div class="titel">milliseconds</div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="button start active">Start</button>
+      <button disabled class="button pause">Pause</button>
+      <button disabled class="button lap">Lap</button>
+      <button disabled class="button stop">Stop</button>
+    </div>
+    <div class="resutls__block">
+      <div class="results__titel">
+        <div class="clear">Clear</div>
+        <h2>Results</h2>
+      </div>
+      <div class="results__item"></div>
+      </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
